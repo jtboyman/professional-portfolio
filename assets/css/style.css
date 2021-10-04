@@ -52,3 +52,21 @@ header nav ul li a:hover {
 }
 
 /*HEADER END*/
+
+/*Hero Styles*/
+
+.hero {
+    background-image: url("../images/cherry-hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.hero div img {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
