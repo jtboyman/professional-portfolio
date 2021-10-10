@@ -90,13 +90,42 @@ header nav ul li a:hover {
 }
 
 .main-section {
-    margin: 5px auto;
     padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-around;
     text-align: center;
+}
+
+.project-display {
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-project {
+    margin: 20px;
+    flex: 1;
+}
+
+.main-project img {
+    width: 75%;
+}
+
+.main-project-bio {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+.main-project-bio h4 {
+    font-size: 28px;
+}
+
+.main-project p {
+    font-size: 17px;
 }
 
 
