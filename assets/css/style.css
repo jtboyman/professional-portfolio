@@ -102,6 +102,11 @@ header nav ul li a:hover {
     align-items: center;
     justify-content:space-around;
     text-align: center;
+    font-weight: bold;
+}
+
+.about-me-text {
+    padding: 0 40px 0 40px;
 }
 
 .main-project-display {
@@ -183,6 +188,48 @@ header nav ul li a:hover {
 .other-project-info p {
     font-size: 15px;
 }
+/*main styles end*/
+
+/*Contact Me Styles*/
+
+.contact-info {
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.email-link {
+    margin-bottom: 20px;
+}
+
+.email-link a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.email-link a:hover {
+    color:pink;
+    background-color: whitesmoke;
+}
+
+.contact-icons img {
+    width:64px;
+    height:64px;
+}
+
+
+/*Contact styles end*?
+
+/*footer styles*/
+
+footer {
+    font-weight: bold;
+}
+
+/*end footer styles*/
 
 /* utility styles*/
 .text-left {
