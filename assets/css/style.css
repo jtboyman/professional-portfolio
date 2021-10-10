@@ -105,8 +105,14 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-.about-me-text {
+.about-me-blurb {
     padding: 0 40px 0 40px;
+}
+
+.about-me-blurb img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
 }
 
 .main-project-display {
