@@ -106,15 +106,30 @@ header nav ul li a:hover {
 
 .main-project-display {
     width:100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.main-project-display a {
+    text-decoration: none;
+}
+
+.main-project-display a:visited {
+    text-decoration: none;
+    color:pink;
+}
+
 .main-project {
     margin: 20px;
     flex: 1;
+    border: 3px solid pink;
+    padding-top: 5px;
+}
+
+.main-project:hover {
+    color: whitesmoke;
+    background-color: pink;
 }
 
 .main-project img {
@@ -128,6 +143,7 @@ header nav ul li a:hover {
 
 .main-project-info h4 {
     font-size: 28px;
+    font-weight: bold;
 }
 
 .main-project p {
@@ -146,23 +162,27 @@ header nav ul li a:hover {
     margin:10px;
 }
 
+.other-project:hover {
+    color: whitesmoke;
+    background-color: pink;
+}
+
 .other-project img {
     width: 30%;
     border-radius: 50%;
 }
 
 .other-project-info {
-
+    padding: 10px;
 }
 
 .other-project-info h5 {
-
+    font-size: 20px;
 }
 
 .other-project-info p {
-
+    font-size: 15px;
 }
-
 
 /* utility styles*/
 .text-left {
