@@ -11,9 +11,9 @@ https://jtboyman.github.io/professional-portfolio/
 
 As I continue growing my skills and completing more projects, more additions will be featured including:
 
--updated functionality
--JavaScript interactivity
--additional projects
+- updated functionality
+- JavaScript interactivity
+- additional projects
 
 ## Contributing
 
