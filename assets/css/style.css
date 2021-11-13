@@ -175,6 +175,11 @@ header nav ul li a:hover {
     color:pink;
 }
 
+.other-project-display a:visited {
+    text-decoration: none;
+    color:pink;
+}
+
 .other-project {
     margin:10px;
 }
