@@ -170,6 +170,11 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
+.other-project-display a {
+    text-decoration: none;
+    color:pink;
+}
+
 .other-project {
     margin:10px;
 }
